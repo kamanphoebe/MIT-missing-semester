@@ -1,1 +1,1 @@
-## MIT-missing-semester
+I have taken the open course called "[The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)" offered by MIT in **2020**. Here are my solutions for some of the exercises. There are a few of them have not completely solved yet because of errors or some other problems so please send me a pull request if you have any suggestion or discover any fault for my solutions :) 
