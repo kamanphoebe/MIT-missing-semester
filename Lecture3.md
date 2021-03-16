@@ -1,4 +1,5 @@
 # Lecture 3 : Editors (Vim)
+---
 
 **4. To practice using Vim, re-do the Demo from lecture on your own machine.**
 ```
