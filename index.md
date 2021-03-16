@@ -3,12 +3,12 @@ I've taken a MIT open course called "[The Missing Semester of Your CS Education(
 P.S. I'm using Ubuntu 18.04.5 at that time.
 
 ## Content:
-[Lecture 1: Course overview + the shell]\
-[Lecture 2: Shell Tools and Scripting]\
-[Lecture 3: Editors (Vim)](https://github.com/kamanphoebe/MIT-missing-semester/blob/main/Lecture3)\
-[Lecture 4: Data Wrangling]\
-[Lecture 5: Command-line Environment]\
-[Lecture 6: Version Control (Git)]\
-[Lecture 7: Debugging and Profiling]\
-[Lecture 8: Metaprogramming]\
-[Lecture 9: Security and Cryptography]\
+[Lecture 1: Course overview + the shell](https://kamanphoebe.github.io/MIT-missing-semester/Lecture1.html)\
+[Lecture 2: Shell Tools and Scripting](https://kamanphoebe.github.io/MIT-missing-semester/Lecture2.html)\
+[Lecture 3: Editors (Vim)](https://kamanphoebe.github.io/MIT-missing-semester/Lecture3.html)\
+[Lecture 4: Data Wrangling](https://kamanphoebe.github.io/MIT-missing-semester/Lecture4.html)\
+[Lecture 5: Command-line Environment](https://kamanphoebe.github.io/MIT-missing-semester/Lecture5.html)\
+[Lecture 6: Version Control (Git)](https://kamanphoebe.github.io/MIT-missing-semester/Lecture6.html)\
+[Lecture 7: Debugging and Profiling](https://kamanphoebe.github.io/MIT-missing-semester/Lecture7.html)\
+[Lecture 8: Metaprogramming](https://kamanphoebe.github.io/MIT-missing-semester/Lecture8.html)\
+[Lecture 9: Security and Cryptography](https://kamanphoebe.github.io/MIT-missing-semester/Lecture9.html)
