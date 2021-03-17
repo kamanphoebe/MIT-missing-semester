@@ -25,16 +25,11 @@
     ```
   
 5. **Write the following into that file, one line at a time:**
-```
-#!/bin/sh
-curl --head --silent https://missing.csail.mit.edu
-```
-**The first line might be tricky to get working. It's helpful to know that
-`#` starts a comment in Bash, and `!` has a special meaning even within
-double-quoted (`"`) strings. Bash treats single-quoted strings (`'`)
-differently: they will do the trick in this case. See the Bash
-[quoting](https://www.gnu.org/software/bash/manual/html_node/Quoting.html)
-manual page for more information.**
+    ```
+    #!/bin/sh
+    curl --head --silent https://missing.csail.mit.edu
+    ```
+    **The first line might be tricky to get working. It's helpful to know that `#` starts a comment in Bash, and `!` has a special meaning even within double-quoted (`"`) strings. Bash treats single-quoted strings (`'`) differently: they will do the trick in this case. See the Bash [quoting](https://www.gnu.org/software/bash/manual/html_node/Quoting.html) manual page for more information.**
    
     Command(s):
     ```
