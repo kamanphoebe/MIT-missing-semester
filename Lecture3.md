@@ -20,7 +20,9 @@
   
     ---
 4. **To practice using Vim, re-do the Demo from lecture on your own machine.**
-	```
+  
+    Solution:
+    ```python
 	import sys
 
 	def fizz_buzz(limit):
