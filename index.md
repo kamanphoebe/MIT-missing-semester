@@ -1,9 +1,8 @@
-I've taken a MIT open course called "[The Missing Semester of Your CS Education(2020)](https://missing.csail.mit.edu/)" in 2021. Here are my solutions for some of the exercises. There are a few of them haven't completely solved yet because of errors or some other problems. So please feel to send me a pull request if you have any suggestion or discover any fault for my solutions :) 
+I've taken a MIT open course called "[The Missing Semester of Your CS Education(2020)](https://missing.csail.mit.edu/)" in 2021. Here are my solutions for some of the exercises. There are a few of them, which are shown in *italic*, haven't completely solved yet because of errors or some other problems. So please feel to send me a pull request if you have any suggestion or discover any fault for my solutions :) 
 
-Go to the [corresponding GitHub Pages](https://kamanphoebe.github.io/MIT-missing-semester/) for a better view!
+**Go to the [corresponding GitHub Pages](https://kamanphoebe.github.io/MIT-missing-semester/) for a better view!**
 
-PS. I'm using Ubuntu 18.04.5 at that time.\
-PPS. The unfinished exercises are shown in *italic* 
+PS. I'm using Ubuntu 18.04.5 at that time.
 
 ## Contents:
 [Lecture 1: Course overview + the shell](https://kamanphoebe.github.io/MIT-missing-semester/Lecture1.html)\
