@@ -7,8 +7,8 @@
     ---
 2. **Create a new directory called `missing` under `/tmp`.**
   
-    Command(s):
-    ```
+    Solution:
+    ```bash
     cd /tmp
     mkdir missing
     ```
@@ -21,22 +21,22 @@
     ---
 4. **Use touch to create a new file called `semester` in `missing`.**
   
-    Command(s):
-    ```
+    Solution:
+    ```bash
     cd /tmp/missing
     touch semester
     ```
   
     ---
 5. **Write the following into that file, one line at a time:**
-    ```
+    ```bash
     #!/bin/sh
     curl --head --silent https://missing.csail.mit.edu
     ```
     **The first line might be tricky to get working. It's helpful to know that `#` starts a comment in Bash, and `!` has a special meaning even within double-quoted (`"`) strings. Bash treats single-quoted strings (`'`) differently: they will do the trick in this case. See the Bash [quoting](https://www.gnu.org/software/bash/manual/html_node/Quoting.html) manual page for more information.**
    
-    Command(s):
-    ```
+    Solution:
+    ```bash
     echo '#!/bin/sh' > semester
     echo 'curl --head --silent https://missing.csail.mit.edu' >> semester
     ```
@@ -59,8 +59,8 @@
     ---
 9. **Use `chmod` to make it possible to run the command `./semester` rather than having to type `sh semester`. How does your shell know that the file is supposed to be interpreted using `sh`? See this page on the [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) line for more information.**
   
-    Command(s):
-    ```
+    Solution:
+    ```bash
     chmod +x semester
     ```
     The first line of `semester` which called `shebang` line tells bash which interpreter to use.
@@ -68,8 +68,8 @@
     ---
 10. **Use `|` and `>` to write the "last modified" date output by `semester` into a file called `last-modified.txt` in your home directory.**
   
-    Command(s):
-    ```
+    Solution:
+    ```bash
     ./semester | head -n 4 | tail -n 1 > ~/last-modified.txt
     # or
     sh semester | head -4 | tail +4 > ~/last-modified.txt
@@ -80,8 +80,8 @@
     ---
 11. ***Write a command that reads out your laptop battery's power level or your desktop machine's CPU temperature from `/sys`. Note: if you're a macOS user, your OS doesn't have sysfs, so you can skip this exercise.***
   
-    Command(s):
-    ```
+    Solution:
+    ```bash
     # I found a path that seems to be correct
     # but there is no file about battery's power level
     cd /sys/class/power_supply/ACAD/power
