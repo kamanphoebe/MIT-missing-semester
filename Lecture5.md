@@ -51,6 +51,7 @@
     
     (Omitted)
     
+---
 ## Dotfiles
     
 **Let's get you up to speed with dotfiles.**
@@ -58,12 +59,12 @@
     
     (Omitted)
   
-  ---
+    ---
 2. **Add a configuration for at least one program, e.g. your shell, with some customization (to start off, it can be something as simple as customizing your shell prompt by setting `$PS1`).**
     
     (Omitted)
   
-  ---
+    ---
 3. **Set up a method to install your dotfiles quickly (and without manual effort) on a new machine. This can be as simple as a shell script that calls `ln -s` for each file, or you could use a [specialized utility](https://dotfiles.github.io/utilities/).**
     
     Solution:
