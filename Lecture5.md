@@ -30,12 +30,14 @@
     }
     ```
     
+---
 ## Terminal multiplexer
     
 1. **Follow this `tmux` [tutorial](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) and then learn how to do some basic customizations following [these steps](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/).**
     
     (Omitted)
     
+---
 ## Aliases
     
 1. **Create an alias `dc` that resolves to `cd` for when you type it wrongly.**
@@ -83,16 +85,17 @@
     
     (Omitted)
   
-  ---
+    ---
 5. **Migrate all of your current tool configurations to your dotfiles repository.**
     
     (Omitted)
   
-  ---
+    ---
 6. **Publish your dotfiles on GitHub.**
     
     (Omitted)
   
+---
 ## Remote Machines
     
 **Install a Linux virtual machine (or use an already existing one) for this exercise. If you are not familiar with virtual machines check out [this](https://hibbard.eu/install-ubuntu-virtual-box/) tutorial for installing one.**
@@ -101,7 +104,7 @@
     
     (Omitted)
   
-  ---
+    ---
 2. **Edit `.ssh/config` to have an entry as follows**
     ```bash
     Host vm
