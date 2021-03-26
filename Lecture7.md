@@ -26,7 +26,8 @@
     done
     ```
     
-    I've installed [ale](https://vimawesome.com/plugin/ale) for automatically checking. Some versions of `vim` would cause the [cursor being invisble](https://github.com/dense-analysis/ale/issues/1536) while navigating error/warning lines provided by ale and it's a bug of `vim`. I solved this by [updating `vim` by PPA](https://vi.stackexchange.com/questions/10817/how-can-i-get-a-newer-version-of-vim-on-ubuntu/10827#10827).\
+    I've installed [ale](https://vimawesome.com/plugin/ale) for automatically checking. Some versions of `vim` would cause the [cursor being invisble](https://github.com/dense-analysis/ale/issues/1536) while navigating error/warning lines provided by ale and it's a bug of `vim`. I solved this by [updating `vim` by PPA](https://vi.stackexchange.com/questions/10817/how-can-i-get-a-newer-version-of-vim-on-ubuntu/10827#10827).
+    
     Script after debugging:
     ```bash
     #!/bin/sh
@@ -96,7 +97,8 @@
 8. **Limiting processes resources can be another handy tool in your toolbox. Try running `stress -c 3` and visualize the CPU consumption with `htop`. Now, execute `taskset --cpu-list 0,2 stress -c 3` and visualize it. Is `stress` taking three CPUs? Why not? Read [`man taskset`](https://www.man7.org/linux/man-pages/man1/taskset.1.html). Challenge: achieve the same using [`cgroups`](https://www.man7.org/linux/man-pages/man7/cgroups.7.html). Try limiting the memory consumption of `stress -m`.**
         
     `stress -c 3` uses up 3 CPU for each `stress` command.\
-    `taskset --cpu-list 0,2 stress -c 3` takes only 1 CPU  for each stress command.\
+    `taskset --cpu-list 0,2 stress -c 3` takes only 1 CPU  for each stress command.
+    
     Explanation from `man taskset`:
     > The Linux scheduler will honor the given CPU affinity and the process will not run on any other CPUs.
     
